@@ -1,0 +1,27 @@
+nav {
+  background-color: black;
+  position: fixed;
+  display: flex;
+  margin: none;
+  align-items: center;
+  width: 100vw;
+  height: 3rem;
+  top: 0;
+  z-index: 1000;
+}
+.navmain {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 70%;
+  list-style-type: none;
+}
+navmain a {
+  color: white;
+  text-decoration: none;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
